@@ -1,1 +1,8 @@
 @import "tailwindcss";
+@font-face {
+  font-family: "MyPrimaryFont";
+  src: url("/public/fonts/HelveticaNeueBlack.otf") format("opentype"),
+    url("/public/fonts/HelveticaNeueBold.otf") format("opentype"); /* Using the .otf file */
+  font-weight: normal;
+  font-style: normal;
+}
