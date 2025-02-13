@@ -5,6 +5,7 @@ import questions from './undraw_questions_g2px.svg';
 import softwareEngineer from './undraw_software-engineer_xv60.svg';
 import takingNotes from './undraw_taking-notes_4si1.svg';
 import thoughtProcess from './undraw_thought-process_pavs.svg';
+import logo from './logo.png';
 
 
 // Alternative object export syntax:
@@ -15,5 +16,6 @@ export default {
     questions,
     softwareEngineer,
     takingNotes,
-    thoughtProcess
+    thoughtProcess,
+    logo
 };

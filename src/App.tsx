@@ -1,10 +1,15 @@
+import { BrowserRouter, Routes, Route } from "react-router";
+import Userlayout from "./layouts/Userlayout";
+import { Home } from './pages/index'
+
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100">
-      <h1 className="text-3xl font-bold text-center py-10 text-red-200 ">
-        Hello World
-      </h1>
-    </div>
+    <BrowserRouter>
+    <Userlayout/>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
+  </BrowserRouter>
   )
 }
 
